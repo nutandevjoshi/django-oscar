@@ -32,7 +32,7 @@ setup(name='django-oscar',
       install_requires=[
           'django>=1.7.8,<1.10',
           # PIL is required for image fields, Pillow is the "friendly" PIL fork
-          'pillow>=1.7.8,<=2.7',
+          'pillow>=1.7.8',
           # We use the ModelFormSetView from django-extra-views for the basket
           # page. 0.6.5 pins version of six, which causes issues:
           # https://github.com/AndrewIngram/django-extra-views/pull/85
@@ -54,12 +54,12 @@ setup(name='django-oscar',
           # Used for oscar.test.contextmanagers.mock_signal_receiver
           'mock>=1.0.1,<1.1',
           # Used for oscar.test.newfactories
-          'factory-boy>=2.4.1,<2.5',
+          'factory-boy>=2.4.1',
           # Used for automatically building larger HTML tables
           'django-tables2>=1.0.4,<1.1',
           # Used for manipulating form field attributes in templates (eg: add
           # a css class)
-          'django-widget-tweaks>=1.4.1,<1.5',
+          'django-widget-tweaks>=1.4.1',
       ],
       dependency_links=[],
       # See http://pypi.python.org/pypi?%3Aaction=list_classifiers
