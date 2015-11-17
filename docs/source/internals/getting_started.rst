@@ -2,8 +2,7 @@
 Building your own shop
 ======================
 
-For simplicity, let's assume you're building a new e-commerce project from
-scratch and have decided to use Oscar.  Let's call this shop 'frobshop'
+For simplicity, let's assume you're building a new e-commerce project from scratch and have decided to use Oscar.  Let's call this shop 'frobshop'
 
 .. tip::
 
